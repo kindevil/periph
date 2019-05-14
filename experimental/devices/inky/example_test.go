@@ -11,10 +11,10 @@ import (
 	"log"
 	"os"
 
-	"periph.io/x/periph/conn/gpio/gpioreg"
-	"periph.io/x/periph/conn/spi/spireg"
-	"periph.io/x/periph/experimental/devices/inky"
-	"periph.io/x/periph/host"
+	"github.com/kindevil/periph/conn/gpio/gpioreg"
+	"github.com/kindevil/periph/conn/spi/spireg"
+	"github.com/kindevil/periph/experimental/devices/inky"
+	"github.com/kindevil/periph/host"
 )
 
 func Example() {

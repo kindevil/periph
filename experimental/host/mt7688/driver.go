@@ -7,7 +7,7 @@ package mt7688
 import (
 	"errors"
 
-	"periph.io/x/periph/host/sysfs"
+	"github.com/kindevil/periph/host/sysfs"
 )
 
 // driverGPIO implements periph.Driver.

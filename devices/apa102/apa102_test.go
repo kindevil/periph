@@ -14,10 +14,10 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"periph.io/x/periph/conn/conntest"
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/conn/spi"
-	"periph.io/x/periph/conn/spi/spitest"
+	"github.com/kindevil/periph/conn/conntest"
+	"github.com/kindevil/periph/conn/physic"
+	"github.com/kindevil/periph/conn/spi"
+	"github.com/kindevil/periph/conn/spi/spitest"
 )
 
 func TestRamp(t *testing.T) {

@@ -16,13 +16,13 @@ import (
 	"image/color"
 	"image/draw"
 
-	"periph.io/x/periph/conn"
-	"periph.io/x/periph/conn/display"
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/i2c"
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/conn/spi"
-	"periph.io/x/periph/devices/ssd1306/image1bit"
+	"github.com/kindevil/periph/conn"
+	"github.com/kindevil/periph/conn/display"
+	"github.com/kindevil/periph/conn/gpio"
+	"github.com/kindevil/periph/conn/i2c"
+	"github.com/kindevil/periph/conn/physic"
+	"github.com/kindevil/periph/conn/spi"
+	"github.com/kindevil/periph/devices/ssd1306/image1bit"
 )
 
 // FrameRate determines scrolling speed.

@@ -3,31 +3,31 @@
 This directory contains directly usable tools installable via:
 
 ```
-go get periph.io/x/periph/cmd/...
+go get github.com/kindevil/periph/cmd/...
 ```
 
 Most of the tools can optionally leverage drivers in
-[hostextra](https://periph.io/x/extra/hostextra) when the build tag
+[hostextra](https://github.com/kindevil/extra/hostextra) when the build tag
 `periphextra` is defined:
 
 ```
-go get -u -tags periphextra periph.io/x/periph/cmd/...
+go get -u -tags periphextra github.com/kindevil/periph/cmd/...
 ```
 
 This permits taking advantage of drivers like FTDI's
-[D2XX](https://periph.io/x/extra/hostextra/d2xx).
+[D2XX](https://github.com/kindevil/extra/hostextra/d2xx).
 
 
 ## Push
 
 If you prefer to build on your workstation and push the binaries to the micro
-computer, install `push` from [periph.io/x/bootstrap](
+computer, install `push` from [github.com/kindevil/bootstrap](
 https://github.com/periph/bootstrap) to cross compile and efficiently push via
 rsync:
 
 ```
-go get -u periph.io/x/bootstrap/cmd/push
-push -host pi@raspberrypi periph.io/x/periph/cmd/...
+go get -u github.com/kindevil/bootstrap/cmd/push
+push -host pi@raspberrypi github.com/kindevil/periph/cmd/...
 ```
 
 ## Recommended first use

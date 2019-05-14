@@ -4,7 +4,7 @@
 
 package jtag
 
-import "periph.io/x/periph/conn/pin"
+import "github.com/kindevil/periph/conn/pin"
 
 const (
 	TCK  pin.Func = "JTAG_TCK"  // Test clock

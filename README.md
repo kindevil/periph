@@ -4,8 +4,8 @@
 
 Documentation is at https://periph.io
 
-[![GoDoc](https://godoc.org/periph.io/x/periph?status.svg)](https://godoc.org/periph.io/x/periph)
-[![Go Report Card](https://goreportcard.com/badge/periph.io/x/periph)](https://goreportcard.com/report/periph.io/x/periph)
+[![GoDoc](https://godoc.org/github.com/kindevil/periph?status.svg)](https://godoc.org/github.com/kindevil/periph)
+[![Go Report Card](https://goreportcard.com/badge/github.com/kindevil/periph)](https://goreportcard.com/report/github.com/kindevil/periph)
 [![Coverage Status](https://codecov.io/gh/google/periph/graph/badge.svg)](https://codecov.io/gh/google/periph)
 [![Build Status](https://travis-ci.org/google/periph.svg)](https://travis-ci.org/google/periph)
 
@@ -24,9 +24,9 @@ package main
 
 import (
     "time"
-    "periph.io/x/periph/conn/gpio"
-    "periph.io/x/periph/host"
-    "periph.io/x/periph/host/rpi"
+    "github.com/kindevil/periph/conn/gpio"
+    "github.com/kindevil/periph/host"
+    "github.com/kindevil/periph/host/rpi"
 )
 
 func main() {

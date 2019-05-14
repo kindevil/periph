@@ -17,11 +17,11 @@ import (
 	"sync"
 	"time"
 
-	"periph.io/x/periph/conn"
-	"periph.io/x/periph/conn/i2c"
-	"periph.io/x/periph/conn/mmr"
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/devices/lepton/internal"
+	"github.com/kindevil/periph/conn"
+	"github.com/kindevil/periph/conn/i2c"
+	"github.com/kindevil/periph/conn/mmr"
+	"github.com/kindevil/periph/conn/physic"
+	"github.com/kindevil/periph/devices/lepton/internal"
 )
 
 // StatusBit is the status as returned by the FLIR Lepton.

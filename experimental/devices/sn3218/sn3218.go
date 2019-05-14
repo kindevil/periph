@@ -7,7 +7,7 @@ package sn3218
 import (
 	"errors"
 
-	"periph.io/x/periph/conn/i2c"
+	"github.com/kindevil/periph/conn/i2c"
 )
 
 const (

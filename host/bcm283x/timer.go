@@ -7,7 +7,7 @@ package bcm283x
 import (
 	"time"
 
-	"periph.io/x/periph/host/cpu"
+	"github.com/kindevil/periph/host/cpu"
 )
 
 // ReadTime returns the time on a monotonic 1Mhz clock (1µs resolution).

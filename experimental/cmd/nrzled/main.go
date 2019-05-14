@@ -24,15 +24,15 @@ import (
 	"strings"
 	"time"
 
-	"periph.io/x/periph/conn/display"
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/gpio/gpioreg"
-	"periph.io/x/periph/conn/gpio/gpiostream"
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/conn/spi"
-	"periph.io/x/periph/conn/spi/spireg"
-	"periph.io/x/periph/experimental/devices/nrzled"
-	"periph.io/x/periph/host"
+	"github.com/kindevil/periph/conn/display"
+	"github.com/kindevil/periph/conn/gpio"
+	"github.com/kindevil/periph/conn/gpio/gpioreg"
+	"github.com/kindevil/periph/conn/gpio/gpiostream"
+	"github.com/kindevil/periph/conn/physic"
+	"github.com/kindevil/periph/conn/spi"
+	"github.com/kindevil/periph/conn/spi/spireg"
+	"github.com/kindevil/periph/experimental/devices/nrzled"
+	"github.com/kindevil/periph/host"
 )
 
 func access(name string) bool {
@@ -47,7 +47,7 @@ func findFile(name string) string {
 	for _, p := range strings.Split(os.Getenv("GOPATH"), ":") {
 		if len(p) != 0 {
 			// Use the images from cmd/apa102.
-			if p2 := filepath.Join(p, "src/periph.io/x/periph/cmd/apa102", name); access(p2) {
+			if p2 := filepath.Join(p, "src/github.com/kindevil/periph/cmd/apa102", name); access(p2) {
 				return p2
 			}
 		}

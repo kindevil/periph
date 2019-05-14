@@ -4,7 +4,7 @@
 
 package onewire
 
-import "periph.io/x/periph/conn/pin"
+import "github.com/kindevil/periph/conn/pin"
 
 const (
 	Q pin.Func = "OW_Q" // Data

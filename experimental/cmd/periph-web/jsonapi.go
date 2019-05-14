@@ -5,15 +5,15 @@
 package main
 
 import (
-	"periph.io/x/periph"
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/gpio/gpioreg"
-	"periph.io/x/periph/conn/i2c"
-	"periph.io/x/periph/conn/i2c/i2creg"
-	"periph.io/x/periph/conn/pin"
-	"periph.io/x/periph/conn/pin/pinreg"
-	"periph.io/x/periph/conn/spi"
-	"periph.io/x/periph/conn/spi/spireg"
+	"github.com/kindevil/periph"
+	"github.com/kindevil/periph/conn/gpio"
+	"github.com/kindevil/periph/conn/gpio/gpioreg"
+	"github.com/kindevil/periph/conn/i2c"
+	"github.com/kindevil/periph/conn/i2c/i2creg"
+	"github.com/kindevil/periph/conn/pin"
+	"github.com/kindevil/periph/conn/pin/pinreg"
+	"github.com/kindevil/periph/conn/spi"
+	"github.com/kindevil/periph/conn/spi/spireg"
 )
 
 // jsonAPI contains the global state/caches for the JSON API.

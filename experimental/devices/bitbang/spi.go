@@ -17,11 +17,11 @@ import (
 	"sync"
 	"time"
 
-	"periph.io/x/periph/conn"
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/conn/spi"
-	"periph.io/x/periph/host/cpu"
+	"github.com/kindevil/periph/conn"
+	"github.com/kindevil/periph/conn/gpio"
+	"github.com/kindevil/periph/conn/physic"
+	"github.com/kindevil/periph/conn/spi"
+	"github.com/kindevil/periph/host/cpu"
 )
 
 // NewSPI returns an spi.PortCloser that communicates SPI over 3 or 4 pins.

@@ -13,9 +13,9 @@ import (
 	"fmt"
 	"time"
 
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/conn/pin"
+	"github.com/kindevil/periph/conn/gpio"
+	"github.com/kindevil/periph/conn/physic"
+	"github.com/kindevil/periph/conn/pin"
 )
 
 // Stream is the interface to define a generic stream.

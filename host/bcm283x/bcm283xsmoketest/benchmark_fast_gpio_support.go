@@ -10,7 +10,7 @@ package bcm283xsmoketest
 import (
 	"testing"
 
-	"periph.io/x/periph/conn/gpio"
+	"github.com/kindevil/periph/conn/gpio"
 )
 
 // runFastGPIOBenchmark runs the standardized GPIO benchmark for this specific

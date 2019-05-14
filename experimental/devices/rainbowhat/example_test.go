@@ -14,11 +14,11 @@ import (
 	"syscall"
 	"time"
 
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/devices/apa102"
-	"periph.io/x/periph/experimental/devices/rainbowhat"
-	"periph.io/x/periph/host"
+	"github.com/kindevil/periph/conn/gpio"
+	"github.com/kindevil/periph/conn/physic"
+	"github.com/kindevil/periph/devices/apa102"
+	"github.com/kindevil/periph/experimental/devices/rainbowhat"
+	"github.com/kindevil/periph/host"
 )
 
 func Example() {

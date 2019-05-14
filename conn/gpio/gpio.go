@@ -14,8 +14,8 @@ import (
 	"strings"
 	"time"
 
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/conn/pin"
+	"github.com/kindevil/periph/conn/physic"
+	"github.com/kindevil/periph/conn/pin"
 )
 
 // Interfaces

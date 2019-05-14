@@ -4,7 +4,7 @@
 
 package bcm283x
 
-import "periph.io/x/periph/host/fs"
+import "github.com/kindevil/periph/host/fs"
 
 func init() {
 	fs.Inhibit()

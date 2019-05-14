@@ -11,11 +11,11 @@ import (
 	"image/color"
 	"time"
 
-	"periph.io/x/periph/conn"
-	"periph.io/x/periph/conn/display"
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/conn/spi"
+	"github.com/kindevil/periph/conn"
+	"github.com/kindevil/periph/conn/display"
+	"github.com/kindevil/periph/conn/gpio"
+	"github.com/kindevil/periph/conn/physic"
+	"github.com/kindevil/periph/conn/spi"
 )
 
 const (

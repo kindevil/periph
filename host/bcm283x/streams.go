@@ -9,7 +9,7 @@ import (
 	"errors"
 	"fmt"
 
-	"periph.io/x/periph/conn/gpio/gpiostream"
+	"github.com/kindevil/periph/conn/gpio/gpiostream"
 )
 
 // uint32ToBitLSBF packs a bit offset found on slice `d` (that is actually

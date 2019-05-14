@@ -13,11 +13,11 @@ import (
 	"strconv"
 	"time"
 
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/gpio/gpioreg"
-	"periph.io/x/periph/host/allwinner"
-	"periph.io/x/periph/host/bcm283x"
-	"periph.io/x/periph/host/sysfs"
+	"github.com/kindevil/periph/conn/gpio"
+	"github.com/kindevil/periph/conn/gpio/gpioreg"
+	"github.com/kindevil/periph/host/allwinner"
+	"github.com/kindevil/periph/host/bcm283x"
+	"github.com/kindevil/periph/host/sysfs"
 )
 
 // SmokeTest is imported by periph-smoketest.
@@ -98,7 +98,7 @@ func (s *SmokeTest) Run(f *flag.FlagSet, args []string) error {
 	}
 	if allwinner.IsA64() {
 		// For now, skip edge testing on the Allwinner A64 (pine64).
-		// https://periph.io/x/periph/issues/54
+		// https://github.com/kindevil/periph/issues/54
 		s.noEdge = true
 	}
 	// On certain Allwinner CPUs, it's a good idea to test specifically the PLx

@@ -8,7 +8,7 @@ import (
 	"errors"
 	"testing"
 
-	"periph.io/x/periph/conn/onewire"
+	"github.com/kindevil/periph/conn/onewire"
 )
 
 func TestOpen(t *testing.T) {

@@ -1,7 +1,7 @@
 Notes
 
 Please prefix the issue title with the primary package affected. For example, if
-this PR fixes periph.io/x/periph/host/sysfs, prefix the PR title with "sysfs:".
+this PR fixes github.com/kindevil/periph/host/sysfs, prefix the PR title with "sysfs:".
 
 Please add new drivers under "experimental". Wonder what it takes to promote a
 driver as "stable"? See https://periph.io/project/#driver-lifetime-management

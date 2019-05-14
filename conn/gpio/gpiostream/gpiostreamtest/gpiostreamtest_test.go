@@ -8,10 +8,10 @@ import (
 	"reflect"
 	"testing"
 
-	"periph.io/x/periph/conn/conntest"
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/gpio/gpiostream"
-	"periph.io/x/periph/conn/physic"
+	"github.com/kindevil/periph/conn/conntest"
+	"github.com/kindevil/periph/conn/gpio"
+	"github.com/kindevil/periph/conn/gpio/gpiostream"
+	"github.com/kindevil/periph/conn/physic"
 )
 
 // PinIn

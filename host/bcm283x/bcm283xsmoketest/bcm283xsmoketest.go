@@ -15,11 +15,11 @@ import (
 	"reflect"
 	"time"
 
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/gpio/gpiostream"
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/conn/pin"
-	"periph.io/x/periph/host/bcm283x"
+	"github.com/kindevil/periph/conn/gpio"
+	"github.com/kindevil/periph/conn/gpio/gpiostream"
+	"github.com/kindevil/periph/conn/physic"
+	"github.com/kindevil/periph/conn/pin"
+	"github.com/kindevil/periph/host/bcm283x"
 )
 
 // SmokeTest is imported by periph-smoketest.

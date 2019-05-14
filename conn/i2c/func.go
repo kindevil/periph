@@ -4,7 +4,7 @@
 
 package i2c
 
-import "periph.io/x/periph/conn/pin"
+import "github.com/kindevil/periph/conn/pin"
 
 const (
 	SCL pin.Func = "I2C_SCL" // Clock

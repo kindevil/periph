@@ -7,8 +7,8 @@ package ads1x15
 import (
 	"testing"
 
-	"periph.io/x/periph/conn/i2c/i2ctest"
-	"periph.io/x/periph/conn/physic"
+	"github.com/kindevil/periph/conn/i2c/i2ctest"
+	"github.com/kindevil/periph/conn/physic"
 )
 
 func TestChannel_String(t *testing.T) {

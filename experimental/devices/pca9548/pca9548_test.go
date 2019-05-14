@@ -8,10 +8,10 @@ import (
 	"strconv"
 	"testing"
 
-	"periph.io/x/periph/conn/i2c/i2creg"
-	"periph.io/x/periph/conn/i2c/i2ctest"
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/host"
+	"github.com/kindevil/periph/conn/i2c/i2creg"
+	"github.com/kindevil/periph/conn/i2c/i2ctest"
+	"github.com/kindevil/periph/conn/physic"
+	"github.com/kindevil/periph/host"
 )
 
 func TestNew(t *testing.T) {

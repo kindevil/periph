@@ -19,11 +19,11 @@ import (
 	"math/rand"
 	"time"
 
-	"periph.io/x/periph/conn/i2c/i2creg"
-	"periph.io/x/periph/conn/onewire"
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/devices/ds18b20"
-	"periph.io/x/periph/devices/ds248x"
+	"github.com/kindevil/periph/conn/i2c/i2creg"
+	"github.com/kindevil/periph/conn/onewire"
+	"github.com/kindevil/periph/conn/physic"
+	"github.com/kindevil/periph/devices/ds18b20"
+	"github.com/kindevil/periph/devices/ds248x"
 )
 
 // SmokeTest is imported by periph-smoketest.

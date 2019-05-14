@@ -8,10 +8,10 @@ import (
 	"image"
 	"log"
 
-	"periph.io/x/periph/conn/i2c/i2creg"
-	"periph.io/x/periph/devices/ssd1306"
-	"periph.io/x/periph/devices/ssd1306/image1bit"
-	"periph.io/x/periph/host"
+	"github.com/kindevil/periph/conn/i2c/i2creg"
+	"github.com/kindevil/periph/devices/ssd1306"
+	"github.com/kindevil/periph/devices/ssd1306/image1bit"
+	"github.com/kindevil/periph/host"
 )
 
 func Example() {

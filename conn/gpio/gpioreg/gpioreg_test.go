@@ -7,7 +7,7 @@ package gpioreg
 import (
 	"testing"
 
-	"periph.io/x/periph/conn/gpio"
+	"github.com/kindevil/periph/conn/gpio"
 )
 
 func TestRegister(t *testing.T) {

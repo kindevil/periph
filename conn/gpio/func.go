@@ -4,7 +4,7 @@
 
 package gpio
 
-import "periph.io/x/periph/conn/pin"
+import "github.com/kindevil/periph/conn/pin"
 
 const (
 	// Inputs

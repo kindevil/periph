@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"testing"
 
-	"periph.io/x/periph/conn/i2c/i2ctest"
-	"periph.io/x/periph/conn/physic"
+	"github.com/kindevil/periph/conn/i2c/i2ctest"
+	"github.com/kindevil/periph/conn/physic"
 )
 
 func TestBasicInitialisationAndDataRead(t *testing.T) {

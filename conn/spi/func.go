@@ -4,7 +4,7 @@
 
 package spi
 
-import "periph.io/x/periph/conn/pin"
+import "github.com/kindevil/periph/conn/pin"
 
 const (
 	CLK  pin.Func = "SPI_CLK"  // Clock

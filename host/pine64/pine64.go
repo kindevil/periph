@@ -8,10 +8,10 @@ import (
 	"errors"
 	"os"
 
-	"periph.io/x/periph"
-	"periph.io/x/periph/conn/pin"
-	"periph.io/x/periph/conn/pin/pinreg"
-	"periph.io/x/periph/host/allwinner"
+	"github.com/kindevil/periph"
+	"github.com/kindevil/periph/conn/pin"
+	"github.com/kindevil/periph/conn/pin/pinreg"
+	"github.com/kindevil/periph/host/allwinner"
 )
 
 // Present returns true if running on a Pine64 board.

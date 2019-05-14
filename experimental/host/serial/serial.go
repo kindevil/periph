@@ -17,12 +17,12 @@ import (
 	"sync"
 	"syscall"
 
-	"periph.io/x/periph"
-	"periph.io/x/periph/conn"
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/gpio/gpioreg"
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/experimental/conn/uart"
+	"github.com/kindevil/periph"
+	"github.com/kindevil/periph/conn"
+	"github.com/kindevil/periph/conn/gpio"
+	"github.com/kindevil/periph/conn/gpio/gpioreg"
+	"github.com/kindevil/periph/conn/physic"
+	"github.com/kindevil/periph/experimental/conn/uart"
 )
 
 // Enumerate returns the available serial buses as exposed by the OS.

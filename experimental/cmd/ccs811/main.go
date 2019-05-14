@@ -12,11 +12,11 @@ import (
 	"strconv"
 	"time"
 
-	"periph.io/x/periph/conn/physic"
+	"github.com/kindevil/periph/conn/physic"
 
-	"periph.io/x/periph/conn/i2c/i2creg"
-	"periph.io/x/periph/experimental/devices/ccs811"
-	"periph.io/x/periph/host"
+	"github.com/kindevil/periph/conn/i2c/i2creg"
+	"github.com/kindevil/periph/experimental/devices/ccs811"
+	"github.com/kindevil/periph/host"
 )
 
 func main() {

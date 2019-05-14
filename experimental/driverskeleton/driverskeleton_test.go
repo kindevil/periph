@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"periph.io/x/periph"
-	"periph.io/x/periph/conn/i2c/i2ctest"
+	"github.com/kindevil/periph"
+	"github.com/kindevil/periph/conn/i2c/i2ctest"
 )
 
 func TestDriverSkeleton(t *testing.T) {

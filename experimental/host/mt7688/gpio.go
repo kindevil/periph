@@ -5,7 +5,7 @@
 package mt7688
 
 import (
-	"periph.io/x/periph/conn/pin"
+	"github.com/kindevil/periph/conn/pin"
 )
 
 // All the pins supported by the CPU.

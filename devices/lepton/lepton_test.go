@@ -11,14 +11,14 @@ import (
 	"image"
 	"testing"
 
-	"periph.io/x/periph/conn"
-	"periph.io/x/periph/conn/conntest"
-	"periph.io/x/periph/conn/i2c/i2ctest"
-	"periph.io/x/periph/conn/physic"
-	"periph.io/x/periph/conn/spi"
-	"periph.io/x/periph/conn/spi/spitest"
-	"periph.io/x/periph/devices/lepton/image14bit"
-	"periph.io/x/periph/devices/lepton/internal"
+	"github.com/kindevil/periph/conn"
+	"github.com/kindevil/periph/conn/conntest"
+	"github.com/kindevil/periph/conn/i2c/i2ctest"
+	"github.com/kindevil/periph/conn/physic"
+	"github.com/kindevil/periph/conn/spi"
+	"github.com/kindevil/periph/conn/spi/spitest"
+	"github.com/kindevil/periph/devices/lepton/image14bit"
+	"github.com/kindevil/periph/devices/lepton/internal"
 )
 
 func TestNew_cs(t *testing.T) {

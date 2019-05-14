@@ -15,10 +15,10 @@ import (
 	"os"
 	"sort"
 
-	"periph.io/x/periph"
-	"periph.io/x/periph/conn/gpio"
-	"periph.io/x/periph/conn/pin"
-	"periph.io/x/periph/conn/pin/pinreg"
+	"github.com/kindevil/periph"
+	"github.com/kindevil/periph/conn/gpio"
+	"github.com/kindevil/periph/conn/pin"
+	"github.com/kindevil/periph/conn/pin/pinreg"
 )
 
 func printFailures(state *periph.State) {

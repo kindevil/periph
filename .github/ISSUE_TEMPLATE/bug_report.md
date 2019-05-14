@@ -14,7 +14,7 @@ Steps to reproduce the behavior:
 package main
 
 import (
-  "periph.io/x/periph/host"
+  "github.com/kindevil/periph/host"
 )
 
 func main() {

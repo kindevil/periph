@@ -13,9 +13,9 @@ import (
 	"syscall"
 	"time"
 
-	"periph.io/x/periph/conn/i2c/i2creg"
-	"periph.io/x/periph/experimental/devices/ina219"
-	"periph.io/x/periph/host"
+	"github.com/kindevil/periph/conn/i2c/i2creg"
+	"github.com/kindevil/periph/experimental/devices/ina219"
+	"github.com/kindevil/periph/host"
 )
 
 func mainImpl() error {

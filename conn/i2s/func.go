@@ -4,7 +4,7 @@
 
 package i2s
 
-import "periph.io/x/periph/conn/pin"
+import "github.com/kindevil/periph/conn/pin"
 
 const (
 	SCK  pin.Func = "I2S_SCK"  // Clock; occasionally named BCLK
