@@ -1012,6 +1012,10 @@ func (d *driverGPIO) Init() (bool, error) {
 		if err := mapA20Pins(); err != nil {
 			return true, err
 		}
+	case IsH5():
+		if err := mapH5Pins(); err != nil {
+			return true, err
+		}
 	default:
 		return false, errors.New("unknown Allwinner CPU model")
 	}

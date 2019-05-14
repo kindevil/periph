@@ -425,6 +425,17 @@ func (d *driverDMA) Init() (bool, error) {
 		clockBaseAddr = 0x1C20000
 		// Page 151.
 		spiBaseAddr = 0x01C05000
+	} else if IsH5() {
+		// page 207
+		dmaBaseAddr = 0x01C02000
+		// page 200
+		pwmBaseAddr = 0x01C21400
+		// page 167
+		timerBaseAddr = 0x01C20C00
+		// page 93
+		clockBaseAddr = 0x01C20000
+		// page 547
+		spiBaseAddr = 0x01C68000
 	} else {
 		// H3
 		// Page 194.
