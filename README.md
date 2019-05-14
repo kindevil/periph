@@ -15,7 +15,7 @@ Join us for a chat on
 get an [invite here](https://invite.slack.golangbridge.org/).
 
 ## Update
-2019-05-15 Add Allwinner H5 support
+    2019-05-15 Add Allwinner H5 support
 
 ## Example
 
